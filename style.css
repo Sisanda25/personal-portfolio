@@ -174,8 +174,68 @@ header {
     text-transform: uppercase; /* Uppercase text */
     letter-spacing: 1px; /* Adds space between letters */
 }
+/* Style for the Resume Section */
+#resume {
+    background-color: #f4f4f4; 
+    padding: 50px 20px; 
+    text-align: center; 
+}
 
+/* Container for Resume content */
+.resume-container {
+    max-width: 900px; 
+    margin: 0 auto; 
+    background-color: #fff; 
+    padding: 30px; 
+    border-radius: 10px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); 
+}
 
+/* Heading Style */
+.resume-container .heading {
+    font-size: 2em; 
+    color: #333; 
+    margin-bottom: 20px; 
+    font-weight: bold; 
+}
+
+/* Paragraph Style */
+.resume-container p {
+    font-size: 1.2em; 
+    color: #555; 
+    margin-bottom: 30px; 
+}
+
+/* Style for the Embed (PDF Viewer) */
+.resume-container embed {
+    border: none; 
+    border-radius: 8px; 
+    max-width: 100%; 
+    margin-bottom: 20px; 
+}
+
+/* Button Style */
+.resume-container .btn {
+    background-color: #007bff; 
+    color: white; 
+    padding: 10px 20px; 
+    font-size: 1.1em; 
+    border: none; 
+    border-radius: 5px; 
+    cursor: pointer; 
+    text-decoration: none; 
+    transition: background-color 0.3s ease; 
+}
+
+/* Button Hover Effect */
+.resume-container .btn:hover {
+    background-color: #0056b3; 
+}
+
+/* Optional Button Container */
+.resume-container a {
+    text-decoration: none; 
+}
 
 
 
